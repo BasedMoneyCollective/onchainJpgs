@@ -1,23 +1,38 @@
 # onchainJpgs
-Onchain image storage for NTFs. 
+Onchain image storage for NFTs.
 
+## Deployment Addresses
+- **Ethereum (Eth):**  
+- **Base:**  
+- **Polygon (Matic):**
 
-# files 
+---
 
-onchainJpg.sol - This is the deployed smart contract that stores the files gobally. 
-IonchainJpg.sol - This is an interface for using the deployed smart contract for storing and retrieving images. 
-exampleNft.sol - An example NFT using the interface to pull the metadata for the image. 
+## Files
 
+- **`OnchainImg.sol`**  
+  This is the deployed smart contract that stores the images globally.
 
-## how is this used on NFTs
-OpenSea and other platforms support the data:image/<format>;base64,<encoded_image>
+- **`IOnchainImg.sol`**  
+  This is an interface for interacting with the deployed smart contract to store and retrieve images.
 
-for for example:
-A png
+- **`exampleNft.sol`**  
+  An example NFT contract that uses the interface to pull the metadata for the image.
+
+---
+
+## How Is This Used on NFTs?
+
+OpenSea and other platforms support the following format for embedding images directly within metadata:
+
+### Example of Embedded Image Metadata
+#### PNG Example
 ```
 "image": "data:image/png;base64,<BASE64_ENCODED_PNG_IMAGE>"
 ```
-A jpg
+#### JPG Example
 ```
 "image": "data:image/jpeg;base64,<BASE64_ENCODED_JPEG_IMAGE>"
 ```
+
+

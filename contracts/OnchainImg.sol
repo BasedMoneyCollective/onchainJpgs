@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract OnchainJpg {
+contract OnchainImg {
     struct Image {
         string mimeType; // e.g., "image/png" or "image/jpeg"
         string base64Data; // Base64-encoded image data

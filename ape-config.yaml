@@ -1,4 +1,4 @@
-name: onchainJpgs
+name: onchainImg
 dependencies:
   - name: OpenZeppelin
     github: OpenZeppelin/openzeppelin-contracts
