@@ -9,6 +9,7 @@ mime_type = "image/png"
 
 def main():
     account = accounts.test_accounts[0]
+    account = accounts.load("testnet")
     print(f"using address {account.address}")
     storage_contract = account.deploy(project.OnchainImg, sender=account)
     print(f"onchain storage deployed at address: {storage_contract.address}")

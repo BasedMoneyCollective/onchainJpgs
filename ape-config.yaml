@@ -3,3 +3,20 @@ dependencies:
   - name: OpenZeppelin
     github: OpenZeppelin/openzeppelin-contracts
     version: 4.5.0
+
+
+
+ethereum:
+  default_network: mainnet
+  mainnet:
+    host: https://mainnet.infura.io/v3/${INFURA_API_KEY}
+    chain_id: 1
+    etherscan:
+      api_key: ${ETHERSCAN_API_KEY}
+  sepolia:
+    host: https://sepolia.infura.io/v3/${INFURA_API_KEY}
+    chain_id: 11155111
+    etherscan:
+      api_key: ${ETHERSCAN_API_KEY}
+      api_uri: https://api-sepolia.etherscan.io/api
+
