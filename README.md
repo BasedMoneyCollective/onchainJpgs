@@ -36,5 +36,5 @@ OpenSea and other platforms support the following format for embedding images di
 "image": "data:image/jpeg;base64,<BASE64_ENCODED_JPEG_IMAGE>"
 ```
 
-Here is an example deployed nft with an onchain image as viewed on opensea [https://testnets.opensea.io/collection/onchain-image-nft-2]([Link Text](URL))
+Here is an example deployed nft with an onchain image as viewed on opensea [https://testnets.opensea.io/collection/onchain-image-nft-2](https://testnets.opensea.io/collection/onchain-image-nft-2)
 
