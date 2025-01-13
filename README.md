@@ -3,7 +3,7 @@ Onchain image storage for NFTs.
 
 ## Deployment Addresses
 - **Ethereum (Eth):**  
-- **Sepolia testnet eth:** 0x1e9046E65Eec34322a16E6AA20b0B0AD83499F58
+- **Sepolia testnet eth:** 0x6b62E7127B50D28D7A3Ee9867d6E76393bDd614c
 - **Base:**  
 - **Polygon (Matic):**
 

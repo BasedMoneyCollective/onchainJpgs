@@ -7,6 +7,9 @@ contract OnchainImg {
         string base64Data; // Base64-encoded image data
     }
 
+    // The event for new images being added. 
+    event NewImageAdded(uint256 indexed imageId, string mimeType);
+
     mapping(uint256 => Image) private images;
     uint256 public imageCount;
 
@@ -48,6 +51,8 @@ contract OnchainImg {
         // gas savings this way 
         require(isSupportedMimeType(mimeType), "Unsupported image type");
         images[imageCount] = Image(mimeType, base64Data);
+        // Emit the event
+        emit NewImageAdded(imageCount, mimeType);
         imageCount++;
         return imageCount - 1; // Return the ID of the stored image
     }
