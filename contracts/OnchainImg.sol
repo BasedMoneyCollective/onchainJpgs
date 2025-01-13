@@ -1,4 +1,23 @@
 // SPDX-License-Identifier: MIT
+/*
+  OnChainImages v1
+  -----------------
+  Onchain image storage for NFTs. Multichain support and batteries included. 
+  Get started and visit the github for source and NFT example. 
+  Github:    https://github.com/BasedMoneyCollective/onchainJpgs
+
+  Brought to you by:
+  Based Money Collective
+  basedmoneycollective.com
+
+  Built for Monerochan 
+  Website:   https://monerochan.biz
+  Telegram:  https://t.me/monerochanToken
+  Twitter:   https://x.com/MonerochanToken
+
+
+
+*/
 pragma solidity ^0.8.0;
 
 contract OnchainImg {
